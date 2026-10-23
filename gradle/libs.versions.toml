@@ -35,8 +35,8 @@ androidx-benchmark-macro = { module = "androidx.benchmark:benchmark-macro-junit4
 androidx-uiautomator = { module = "androidx.test.uiautomator:uiautomator", version = "2.3.0" }
 leakcanary-android = { module = "com.squareup.leakcanary:leakcanary-android", version.ref = "leakcanary" }
 
-coil-compose = { module = "io.coil-kt.coil3:coil-compose", version = "3.3.0" }
-coil-network = { module = "io.coil-kt.coil3:coil-network-okhttp", version = "3.3.0" }
+coil-compose = { module = "io.coil-kt.coil3:coil-compose", version = "3.6.3" }
+coil-network = { module = "io.coil-kt.coil3:coil-network-okhttp", version = "3.6.3" }
 androidx-work = { module = "androidx.work:work-runtime-ktx", version = "2.10.1" }
 kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "coroutines" }
 
