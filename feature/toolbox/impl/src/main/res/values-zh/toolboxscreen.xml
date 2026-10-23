@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="transfer_file_error">文件不可访问或超过 100 MiB。</string>
+    <string name="transfer_retries_error">重试次数已用尽。</string>
+    <string name="debug_app">应用：%1$s</string>
+    <string name="debug_first_frame">首帧耗时：%1$d ms</string>
+    <string name="debug_last_crash">最近崩溃：%1$s</string>
+    <string name="debug_no_crash">无崩溃记录</string>
+    <string name="debug_failed">失败</string>
+    <string name="debug_request">%1$s %2$s %3$s %4$d ms</string>
+    <string name="ui_toolboxscreen_1">文件已选择</string>
+    <string name="ui_toolboxscreen_2">已取消拍照</string>
+    <string name="ui_toolboxscreen_3">通知已发送；若未显示，请检查系统通知设置</string>
+    <string name="ui_toolboxscreen_4">功能与调试示例</string>
+    <string name="ui_toolboxscreen_5">基础能力</string>
+    <string name="ui_toolboxscreen_6">网络状态与错误页</string>
+    <string name="ui_toolboxscreen_7">视频播放与缓存</string>
+    <string name="ui_toolboxscreen_8">远程分页与离线同步</string>
+    <string name="ui_toolboxscreen_9">导航返回结果</string>
+    <string name="ui_toolboxscreen_10">消费结果</string>
+    <string name="ui_toolboxscreen_11">图片、文件和相机</string>
+    <string name="ui_toolboxscreen_12">图片地址</string>
+    <string name="ui_toolboxscreen_13">预览图片</string>
+    <string name="ui_toolboxscreen_14">选择图片</string>
+    <string name="ui_toolboxscreen_15">选择文件</string>
+    <string name="ui_toolboxscreen_16">设备没有可用的相机应用</string>
+    <string name="ui_toolboxscreen_17">拍照</string>
+    <string name="ui_toolboxscreen_18">已选择文件，可用于下面的上传示例</string>
+    <string name="ui_toolboxscreen_19">权限与通知</string>
+    <string name="ui_toolboxscreen_20">申请通知权限并发送通知</string>
+    <string name="ui_toolboxscreen_21">通知权限被拒绝，你可以重试，或在系统设置中开启。</string>
+    <string name="ui_toolboxscreen_22">打开应用设置</string>
+    <string name="ui_toolboxscreen_23">后台上传与下载</string>
+    <string name="ui_toolboxscreen_24">输入你自己的 HTTPS 地址。上传为原始二进制 POST；上限 100 MiB，网络恢复后自动重试。</string>
+    <string name="ui_toolboxscreen_25">传输地址</string>
+    <string name="ui_toolboxscreen_26">请输入有效的 HTTPS 地址</string>
+    <string name="ui_toolboxscreen_27">下载</string>
+    <string name="ui_toolboxscreen_28">上传所选文件</string>
+    <string name="ui_toolboxscreen_29">状态：%1$s，已传输 %2$d 字节</string>
+    <string name="ui_toolboxscreen_30">取消传输</string>
+    <string name="ui_toolboxscreen_31">传输已完成，下载文件保存在应用私有目录</string>
+    <string name="ui_toolboxscreen_32">调试信息</string>
+    <string name="ui_toolboxscreen_33">请求记录仅保留方法、主机、状态码与耗时，不记录凭据或响应内容。</string>
+    <string name="ui_toolboxscreen_34">清除请求记录</string>
+</resources>

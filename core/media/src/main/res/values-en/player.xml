@@ -1,0 +1,5 @@
+<resources>
+    <string name="player_play">Play</string>
+    <string name="player_pause">Pause</string>
+    <string name="player_retry">Playback failed. Retry</string>
+</resources>

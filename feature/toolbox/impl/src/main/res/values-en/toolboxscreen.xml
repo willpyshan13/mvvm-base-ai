@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="transfer_file_error">The file is unavailable or larger than 100 MiB.</string>
+    <string name="transfer_retries_error">The retry limit was reached.</string>
+    <string name="debug_app">App: %1$s</string>
+    <string name="debug_first_frame">First frame: %1$d ms</string>
+    <string name="debug_last_crash">Last crash: %1$s</string>
+    <string name="debug_no_crash">No crash recorded</string>
+    <string name="debug_failed">Failed</string>
+    <string name="debug_request">%1$s %2$s %3$s %4$d ms</string>
+    <string name="ui_toolboxscreen_1">File selected</string>
+    <string name="ui_toolboxscreen_2">Camera cancelled</string>
+    <string name="ui_toolboxscreen_3">Notification sent. Check system notification settings if it does not appear.</string>
+    <string name="ui_toolboxscreen_4">Examples and diagnostics</string>
+    <string name="ui_toolboxscreen_5">Core capabilities</string>
+    <string name="ui_toolboxscreen_6">Network status and error pages</string>
+    <string name="ui_toolboxscreen_7">Video playback and cache</string>
+    <string name="ui_toolboxscreen_8">Remote pagination and offline sync</string>
+    <string name="ui_toolboxscreen_9">Navigation result example</string>
+    <string name="ui_toolboxscreen_10">Consume result</string>
+    <string name="ui_toolboxscreen_11">Images, files, and camera</string>
+    <string name="ui_toolboxscreen_12">Image URL</string>
+    <string name="ui_toolboxscreen_13">Image preview</string>
+    <string name="ui_toolboxscreen_14">Choose image</string>
+    <string name="ui_toolboxscreen_15">Choose file</string>
+    <string name="ui_toolboxscreen_16">No camera app is available</string>
+    <string name="ui_toolboxscreen_17">Take photo</string>
+    <string name="ui_toolboxscreen_18">File selected and ready for upload below</string>
+    <string name="ui_toolboxscreen_19">Permissions and notifications</string>
+    <string name="ui_toolboxscreen_20">Request permission and send notification</string>
+    <string name="ui_toolboxscreen_21">Notification permission was denied. Retry or enable it in system settings.</string>
+    <string name="ui_toolboxscreen_22">Open app settings</string>
+    <string name="ui_toolboxscreen_23">Background upload and download</string>
+    <string name="ui_toolboxscreen_24">Enter your own HTTPS URL. Uploads use raw binary POST. Limit: 100 MiB. Transient failures retry after connectivity returns.</string>
+    <string name="ui_toolboxscreen_25">Transfer URL</string>
+    <string name="ui_toolboxscreen_26">Enter a valid HTTPS URL</string>
+    <string name="ui_toolboxscreen_27">Download</string>
+    <string name="ui_toolboxscreen_28">Upload selected file</string>
+    <string name="ui_toolboxscreen_29">State: %1$s; transferred %2$d bytes</string>
+    <string name="ui_toolboxscreen_30">Cancel transfer</string>
+    <string name="ui_toolboxscreen_31">Transfer complete. Downloads are stored privately by this app.</string>
+    <string name="ui_toolboxscreen_32">Diagnostics</string>
+    <string name="ui_toolboxscreen_33">Request records contain only method, host, status, and duration. Credentials and response bodies are excluded.</string>
+    <string name="ui_toolboxscreen_34">Clear request history</string>
+</resources>

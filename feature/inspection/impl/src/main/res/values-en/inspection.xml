@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="inspection_title">Inspections</string>
+    <string name="inspection_subtitle">Equipment inspection example · saved locally</string>
+    <string name="inspection_new">New inspection</string>
+    <string name="inspection_draft">Draft</string>
+    <string name="inspection_done">Completed</string>
+    <string name="inspection_all">All</string>
+    <string name="inspection_empty">No inspection records yet</string>
+    <string name="inspection_empty_hint">Create one to record equipment, location and checks.</string>
+    <string name="inspection_equipment">Equipment</string>
+    <string name="inspection_location">Location</string>
+    <string name="inspection_notes">Notes</string>
+    <string name="inspection_check_appearance">Appearance is good</string>
+    <string name="inspection_check_operation">Operating normally</string>
+    <string name="inspection_check_safety">Safety signs are present</string>
+    <string name="inspection_photo">Site photo</string>
+    <string name="inspection_pick_photo">Choose photo</string>
+    <string name="inspection_remove_photo">Remove photo</string>
+    <string name="inspection_save">Save draft</string>
+    <string name="inspection_complete">Complete inspection</string>
+    <string name="inspection_delete">Delete</string>
+    <string name="inspection_delete_title">Delete inspection?</string>
+    <string name="inspection_delete_body">This cannot be undone.</string>
+    <string name="inspection_cancel">Cancel</string>
+    <string name="inspection_error">Operation failed. Please try again.</string>
+    <string name="inspection_load_error">Could not load inspection records.</string>
+    <string name="inspection_missing">This record no longer exists.</string>
+    <string name="inspection_loading">Loading inspection…</string>
+    <string name="inspection_count">%1$d of 3 checks completed</string>
+    <string name="inspection_finish_hint">Enter equipment and location, then complete all checks.</string>
+    <string name="inspection_completed_hint">Completed records can be viewed or deleted.</string>
+    <string name="inspection_local_notice">Example data stays on this device; it does not sync or clear on sign out.</string>
+</resources>

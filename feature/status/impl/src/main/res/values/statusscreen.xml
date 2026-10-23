@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_http_title">请求失败（HTTP %1$d）</string>
+    <string name="status_http_description">服务返回 HTTP %1$d。</string>
+    <string name="status_server_state">服务状态：%1$s</string>
+    <string name="ui_statusscreen_1">返回任务</string>
+    <string name="ui_statusscreen_2">网络状态示例</string>
+    <string name="ui_statusscreen_3">从配置的 API 调用 GET /status。</string>
+    <string name="ui_statusscreen_4">正在检查连接…</string>
+    <string name="ui_statusscreen_5">点击按钮检查服务端状态。</string>
+    <string name="ui_statusscreen_6">当前无法连接服务，请检查网络后重试。</string>
+    <string name="ui_statusscreen_7">服务响应超时，请稍后重试。</string>
+    <string name="ui_statusscreen_8">响应无法处理，请检查接口格式。</string>
+    <string name="ui_statusscreen_9">请配置 API 地址后再检查服务。</string>
+    <string name="ui_statusscreen_10">尚未检查连接</string>
+    <string name="ui_statusscreen_11">检查连接</string>
+    <string name="ui_statusscreen_12">重新检查</string>
+</resources>

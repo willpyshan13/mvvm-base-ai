@@ -1,0 +1,4 @@
+<resources>
+    <string name="task_count">Tasks · %1$d total</string>
+    <string name="saved_count">%1$d saved tasks</string>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="edit_item">Edit item</string>
+    <string name="title">Title</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="simulate_conflict">Simulate version conflict</string>
+    <string name="conflict">Conflict</string>
+    <string name="pending">Pending sync</string>
+    <string name="synced">Synced</string>
+    <string name="version_state">Version %1$d · %2$s</string>
+</resources>

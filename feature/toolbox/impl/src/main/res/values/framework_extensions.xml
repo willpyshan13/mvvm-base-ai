@@ -1,0 +1,11 @@
+<resources>
+    <string name="cache_cleared">视频缓存已清除</string>
+    <string name="close_player_first">请先关闭播放器后再清理缓存</string>
+    <string name="clear_video_cache">清理视频缓存</string>
+    <string name="video_cache_usage">视频缓存：%1$d / %2$d MiB</string>
+    <string name="result_value">收到返回值：%1$s</string>
+    <string name="image_cache_usage">图片缓存：内存 %1$d / %2$d KiB；磁盘 %3$d / %4$d KiB</string>
+    <string name="clear_image_cache">清理图片缓存</string>
+    <string name="image_cache_cleared">图片缓存已清除，正在加载的图片可能再次写入缓存</string>
+    <string name="image_cache_clear_failed">图片缓存清理失败，请重试</string>
+</resources>

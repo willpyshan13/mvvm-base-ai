@@ -1,0 +1,8 @@
+<full-backup-content>
+    <exclude domain="sharedpref" path="auth_session.xml" />
+    <exclude domain="file" path="last-crash.txt" />
+    <exclude domain="file" path="downloads/" />
+    <exclude domain="database" path="inspections.db" />
+    <exclude domain="database" path="inspections.db-wal" />
+    <exclude domain="database" path="inspections.db-shm" />
+</full-backup-content>

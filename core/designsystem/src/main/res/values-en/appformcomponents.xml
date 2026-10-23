@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ui_appformcomponents_1">Loading more…</string>
+    <string name="ui_appformcomponents_2">Image failed to load. Retry</string>
+    <string name="ui_appformcomponents_3">Back</string>
+    <string name="image_offline_retry">No internet. Tap to retry; retry automatically when reconnected.</string>
+</resources>

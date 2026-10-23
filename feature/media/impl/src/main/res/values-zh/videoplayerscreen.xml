@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="download_state">下载状态：%1$s</string>
+    <string name="download_waiting">等待</string>
+    <string name="playback_speed">播放速度 %1$.1f×</string>
+    <string name="player_temporarily_unavailable">播放器暂不可用</string>
+    <string name="ui_videoplayerscreen_1">返回</string>
+    <string name="ui_videoplayerscreen_2">视频播放器</string>
+    <string name="ui_videoplayerscreen_3">使用自研 FFmpeg 内核播放本地或网络视频，支持 MP4、HLS 和 DASH。HTTPS 由应用的本地代理转发。</string>
+    <string name="ui_videoplayerscreen_4">网络视频按服务器缓存策略保存；未完整缓存的视频不保证离线播放。可在设置中调整缓存上限或关闭缓存，关闭播放器后生效。</string>
+    <string name="ui_videoplayerscreen_5">视频地址</string>
+    <string name="ui_videoplayerscreen_6">请输入有效的 HTTP 或 HTTPS 视频地址。</string>
+    <string name="ui_videoplayerscreen_7">开始播放</string>
+    <string name="ui_videoplayerscreen_8">播放此地址</string>
+    <string name="ui_videoplayerscreen_9">播放本地视频</string>
+    <string name="ui_videoplayerscreen_10">仅支持 HTTPS 下载</string>
+    <string name="ui_videoplayerscreen_11">下载 MP4 供离线播放</string>
+    <string name="ui_videoplayerscreen_12">离线下载适用于直接 MP4 地址；HLS/DASH 仅支持在线播放。</string>
+    <string name="ui_videoplayerscreen_13">取消下载</string>
+    <string name="ui_videoplayerscreen_14">播放已下载视频</string>
+    <string name="ui_videoplayerscreen_15">视频播放失败，请检查视频地址、网络和设备解码支持。</string>
+    <string name="ui_videoplayerscreen_16">退出全屏</string>
+    <string name="ui_videoplayerscreen_17">全屏</string>
+    <string name="ui_videoplayerscreen_18">画中画不可用，请检查系统设置</string>
+    <string name="ui_videoplayerscreen_19">画中画</string>
+    <string name="ui_videoplayerscreen_20">−10 秒</string>
+    <string name="ui_videoplayerscreen_21">+10 秒</string>
+    <string name="download_offline">网络已断开，恢复连接后将自动继续下载</string>
+    <string name="download_reconnected">网络已恢复，将自动继续下载</string>
+    <string name="download_weak">当前网络较弱或响应缓慢，下载中断后会自动重试</string>
+    <string name="download_retrying">等待自动重试下载…</string>
+    <string name="download_resume">继续下载</string>
+</resources>

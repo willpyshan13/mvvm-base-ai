@@ -1,0 +1,96 @@
+name: Android Release Bundle
+
+on:
+  workflow_dispatch:
+    inputs:
+      version_code:
+        description: Increasing integer version code
+        required: true
+        type: string
+      version_name:
+        description: User-visible version, such as 1.0.1
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: android-release
+  cancel-in-progress: false
+
+jobs:
+  signed-app-bundle:
+    name: Build signed Android App Bundle
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v7
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@v6
+        with:
+          cache-provider: basic
+
+      - name: Validate release inputs and decode signing key
+        env:
+          RELEASE_VERSION_CODE: ${{ inputs.version_code }}
+          RELEASE_VERSION_NAME: ${{ inputs.version_name }}
+          ANDROID_KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+          ANDROID_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          ANDROID_KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
+          ANDROID_KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
+        run: |
+          set -euo pipefail
+          [[ "$RELEASE_VERSION_CODE" =~ ^[1-9][0-9]*$ ]] || { echo "::error::version_code must be a positive integer"; exit 1; }
+          [[ "$RELEASE_VERSION_NAME" =~ ^[0-9A-Za-z][0-9A-Za-z.+_-]*$ ]] || { echo "::error::version_name contains unsupported characters"; exit 1; }
+          test -n "$ANDROID_KEYSTORE_BASE64" || { echo "::error::Configure Android signing secrets in repository settings"; exit 1; }
+          test -n "$ANDROID_KEYSTORE_PASSWORD" || { echo "::error::Missing ANDROID_KEYSTORE_PASSWORD secret"; exit 1; }
+          test -n "$ANDROID_KEY_ALIAS" || { echo "::error::Missing ANDROID_KEY_ALIAS secret"; exit 1; }
+          test -n "$ANDROID_KEY_PASSWORD" || { echo "::error::Missing ANDROID_KEY_PASSWORD secret"; exit 1; }
+          printf '%s' "$ANDROID_KEYSTORE_BASE64" | base64 --decode > "$RUNNER_TEMP/release.keystore"
+          test -s "$RUNNER_TEMP/release.keystore" || { echo "::error::Decoded keystore is empty"; exit 1; }
+          printf 'ANDROID_KEYSTORE_PATH=%s\n' "$RUNNER_TEMP/release.keystore" >> "$GITHUB_ENV"
+
+      - name: Build signed bundle
+        env:
+          API_BASE_URL: ${{ vars.API_BASE_URL }}
+          APM_ENDPOINT: ${{ vars.APM_ENDPOINT }}
+          FEATURE_FLAGS_URL: ${{ vars.FEATURE_FLAGS_URL }}
+          ANDROID_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          ANDROID_KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
+          ANDROID_KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
+          RELEASE_VERSION_CODE: ${{ inputs.version_code }}
+          RELEASE_VERSION_NAME: ${{ inputs.version_name }}
+        run: |
+          test -n "$API_BASE_URL" || { echo "::error::Set API_BASE_URL repository variable"; exit 1; }
+          test -n "$APM_ENDPOINT" || { echo "::error::Set APM_ENDPOINT repository variable"; exit 1; }
+          ./gradlew :checkModuleBoundaries :app:bundleRelease -PappEnvironment=production --no-daemon \
+          "-PversionCode=$RELEASE_VERSION_CODE" \
+          "-PversionName=$RELEASE_VERSION_NAME" \
+          "-PapiBaseUrl=$API_BASE_URL" \
+          "-PapmEndpoint=$APM_ENDPOINT" \
+          "-PfeatureFlagsUrl=$FEATURE_FLAGS_URL"
+
+      - name: Check release size budget
+        run: python3 tools/quality/release_gate.py app/build/outputs/bundle/release/app-release.aab
+
+      - name: Verify bundle signature
+        run: jarsigner -verify app/build/outputs/bundle/release/app-release.aab
+
+      - name: Upload signed bundle
+        uses: actions/upload-artifact@v7
+        with:
+          name: will-mvvm-base-release-aab
+          path: |
+            app/build/outputs/bundle/release/app-release.aab
+            app/build/outputs/mapping/release/mapping.txt
+          if-no-files-found: error
+          retention-days: 90

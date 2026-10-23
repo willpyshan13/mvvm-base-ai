@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notification_channel">功能演示</string>
+    <string name="notification_title">基础框架通知</string>
+    <string name="notification_body">点击打开功能示例</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notification_channel">Examples</string>
+    <string name="notification_title">Framework notification</string>
+    <string name="notification_body">Tap to open an example</string>
+</resources>

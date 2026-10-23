@@ -1,0 +1,11 @@
+<resources>
+    <string name="cache_cleared">Video cache cleared</string>
+    <string name="close_player_first">Close the player before clearing its cache</string>
+    <string name="clear_video_cache">Clear video cache</string>
+    <string name="video_cache_usage">Video cache: %1$d / %2$d MiB</string>
+    <string name="result_value">Returned value: %1$s</string>
+    <string name="image_cache_usage">Image cache: memory %1$d / %2$d KiB; disk %3$d / %4$d KiB</string>
+    <string name="clear_image_cache">Clear image cache</string>
+    <string name="image_cache_cleared">Image cache cleared. Active requests may cache images again.</string>
+    <string name="image_cache_clear_failed">Unable to clear image cache. Try again.</string>
+</resources>

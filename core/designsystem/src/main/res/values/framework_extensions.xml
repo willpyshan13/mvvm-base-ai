@@ -1,0 +1,4 @@
+<resources>
+    <string name="open_settings">打开系统设置</string>
+    <string name="grant_permission">授予权限</string>
+</resources>

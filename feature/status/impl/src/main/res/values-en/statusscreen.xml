@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_http_title">Request failed (HTTP %1$d)</string>
+    <string name="status_http_description">The server returned HTTP %1$d.</string>
+    <string name="status_server_state">Server status: %1$s</string>
+    <string name="ui_statusscreen_1">Back to tasks</string>
+    <string name="ui_statusscreen_2">Network status example</string>
+    <string name="ui_statusscreen_3">Calls GET /status on the configured API.</string>
+    <string name="ui_statusscreen_4">Checking connection…</string>
+    <string name="ui_statusscreen_5">Check the server status using the button.</string>
+    <string name="ui_statusscreen_6">Unable to connect. Check your connection and retry.</string>
+    <string name="ui_statusscreen_7">The server timed out. Try again later.</string>
+    <string name="ui_statusscreen_8">Unable to parse the response. Check the API format.</string>
+    <string name="ui_statusscreen_9">Configure the API URL before checking the service.</string>
+    <string name="ui_statusscreen_10">Connection not checked</string>
+    <string name="ui_statusscreen_11">Check connection</string>
+    <string name="ui_statusscreen_12">Check again</string>
+</resources>

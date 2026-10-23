@@ -1,0 +1,4 @@
+<resources>
+    <string name="open_settings">Open system settings</string>
+    <string name="grant_permission">Grant permission</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login_missing_input">请输入账号和密码。</string>
+    <string name="login_failed">登录失败，请检查账号、密码或网络后重试。</string>
+    <string name="ui_loginscreen_1">登录</string>
+    <string name="ui_loginscreen_2">该页面用于登录拦截。接入认证接口后即可完成登录。</string>
+    <string name="ui_loginscreen_3">账号</string>
+    <string name="ui_loginscreen_4">密码</string>
+    <string name="ui_loginscreen_5">正在登录…</string>
+    <string name="ui_loginscreen_6">登录</string>
+    <string name="ui_loginscreen_7">返回</string>
+</resources>

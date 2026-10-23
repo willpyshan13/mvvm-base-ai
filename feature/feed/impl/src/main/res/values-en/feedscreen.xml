@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feed_action_failed">Action failed. Local changes were kept. Try again.</string>
+    <string name="ui_feedscreen_1">Pagination and offline sync</string>
+    <string name="ui_feedscreen_2">Demo server: stored separately on this device to exercise the offline queue. Configure an API to use a real server.</string>
+    <string name="ui_feedscreen_3">Connected to the API. Reading local cache and syncing pending changes.</string>
+    <string name="ui_feedscreen_4">Simulate offline</string>
+    <string name="ui_feedscreen_5">New item</string>
+    <string name="ui_feedscreen_6">Save locally</string>
+    <string name="ui_feedscreen_7">Refresh first page</string>
+    <string name="ui_feedscreen_8">Sync changes</string>
+    <string name="ui_feedscreen_9">Offline changes are saved immediately. Background work retries automatically. Choose which version to keep when a conflict occurs.</string>
+    <string name="ui_feedscreen_10">Keep local</string>
+    <string name="ui_feedscreen_11">Use server version</string>
+    <string name="ui_feedscreen_12"> (edited)</string>
+    <string name="ui_feedscreen_13">Edit example</string>
+    <string name="ui_feedscreen_14">Load next page</string>
+    <string name="ui_feedscreen_15">All items loaded</string>
+</resources>

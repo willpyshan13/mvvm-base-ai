@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ui_summaryscreen_1">Back to tasks</string>
+    <string name="ui_summaryscreen_2">Task summary</string>
+    <string name="ui_summaryscreen_3">Reading tasks…</string>
+    <string name="ui_summaryscreen_4">Tasks are stored locally and remain available after restarting the app.</string>
+</resources>

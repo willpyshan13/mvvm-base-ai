@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_close">关闭</string>
+    <string name="ui_appuicomponents_1">正在加载…</string>
+    <string name="ui_appuicomponents_2">暂无数据</string>
+    <string name="ui_appuicomponents_3">网络连接失败</string>
+    <string name="ui_appuicomponents_4">当前无法连接服务，请检查网络后重试。</string>
+    <string name="ui_appuicomponents_5">连接超时</string>
+    <string name="ui_appuicomponents_6">服务响应时间过长，请稍后重试。</string>
+    <string name="ui_appuicomponents_7">需要系统权限</string>
+    <string name="ui_appuicomponents_8">授予所需权限后即可继续。</string>
+    <string name="ui_appuicomponents_9">请先登录</string>
+    <string name="ui_appuicomponents_10">登录后即可访问此内容。</string>
+    <string name="ui_appuicomponents_11">暂无访问权限</string>
+    <string name="ui_appuicomponents_12">当前账号没有访问此内容的权限。</string>
+    <string name="ui_appuicomponents_13">内容不存在</string>
+    <string name="ui_appuicomponents_14">内容可能已删除或链接已失效。</string>
+    <string name="ui_appuicomponents_15">操作过于频繁</string>
+    <string name="ui_appuicomponents_16">请稍等片刻后重试。</string>
+    <string name="ui_appuicomponents_17">服务暂时不可用</string>
+    <string name="ui_appuicomponents_18">服务端遇到问题，请稍后重试。</string>
+    <string name="ui_appuicomponents_19">服务尚未配置</string>
+    <string name="ui_appuicomponents_20">请先配置服务地址后再试。</string>
+    <string name="ui_appuicomponents_21">加载失败</string>
+    <string name="ui_appuicomponents_22">发生了意外错误，请重试。</string>
+</resources>

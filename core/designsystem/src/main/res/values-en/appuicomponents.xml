@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_close">Close</string>
+    <string name="ui_appuicomponents_1">Loading…</string>
+    <string name="ui_appuicomponents_2">No data</string>
+    <string name="ui_appuicomponents_3">Connection failed</string>
+    <string name="ui_appuicomponents_4">Unable to connect. Check your network and try again.</string>
+    <string name="ui_appuicomponents_5">Connection timed out</string>
+    <string name="ui_appuicomponents_6">The server took too long to respond. Try again later.</string>
+    <string name="ui_appuicomponents_7">Permission required</string>
+    <string name="ui_appuicomponents_8">Grant the required permission to continue.</string>
+    <string name="ui_appuicomponents_9">Sign in required</string>
+    <string name="ui_appuicomponents_10">Sign in to access this content.</string>
+    <string name="ui_appuicomponents_11">Access denied</string>
+    <string name="ui_appuicomponents_12">This account cannot access this content.</string>
+    <string name="ui_appuicomponents_13">Content not found</string>
+    <string name="ui_appuicomponents_14">This content may have been deleted or the link has expired.</string>
+    <string name="ui_appuicomponents_15">Too many requests</string>
+    <string name="ui_appuicomponents_16">Wait a moment and try again.</string>
+    <string name="ui_appuicomponents_17">Service unavailable</string>
+    <string name="ui_appuicomponents_18">The server encountered a problem. Try again later.</string>
+    <string name="ui_appuicomponents_19">Service not configured</string>
+    <string name="ui_appuicomponents_20">Configure the server URL and try again.</string>
+    <string name="ui_appuicomponents_21">Unable to load</string>
+    <string name="ui_appuicomponents_22">An unexpected error occurred. Try again.</string>
+</resources>

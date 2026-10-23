@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feed_action_failed">操作失败，本地修改已保留，请重试。</string>
+    <string name="ui_feedscreen_1">分页与离线同步</string>
+    <string name="ui_feedscreen_2">演示服务器：数据独立保存到本机，用于验证离线队列。配置 API 后使用真实接口。</string>
+    <string name="ui_feedscreen_3">已连接 API，读取本地缓存并同步待提交修改。</string>
+    <string name="ui_feedscreen_4">模拟离线</string>
+    <string name="ui_feedscreen_5">新条目</string>
+    <string name="ui_feedscreen_6">保存到本地</string>
+    <string name="ui_feedscreen_7">刷新第一页</string>
+    <string name="ui_feedscreen_8">同步修改</string>
+    <string name="ui_feedscreen_9">离线修改立即写入 Room，后台自动重试；版本冲突由你选择保留哪一份。</string>
+    <string name="ui_feedscreen_10">保留本地</string>
+    <string name="ui_feedscreen_11">采用服务端</string>
+    <string name="ui_feedscreen_12">（已编辑）</string>
+    <string name="ui_feedscreen_13">编辑示例</string>
+    <string name="ui_feedscreen_14">加载下一页</string>
+    <string name="ui_feedscreen_15">已加载全部条目</string>
+</resources>

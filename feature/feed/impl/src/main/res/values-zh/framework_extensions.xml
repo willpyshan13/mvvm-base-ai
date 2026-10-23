@@ -1,0 +1,11 @@
+<resources>
+    <string name="edit_item">编辑条目</string>
+    <string name="title">标题</string>
+    <string name="save">保存</string>
+    <string name="cancel">取消</string>
+    <string name="simulate_conflict">模拟版本冲突</string>
+    <string name="conflict">有冲突</string>
+    <string name="pending">待同步</string>
+    <string name="synced">已同步</string>
+    <string name="version_state">版本 %1$d · %2$s</string>
+</resources>

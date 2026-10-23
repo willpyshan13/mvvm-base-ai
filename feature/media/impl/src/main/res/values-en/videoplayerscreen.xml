@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="download_state">Download status: %1$s</string>
+    <string name="download_waiting">Waiting</string>
+    <string name="playback_speed">Playback speed %1$.1f×</string>
+    <string name="player_temporarily_unavailable">The video player is temporarily unavailable.</string>
+    <string name="ui_videoplayerscreen_1">Back</string>
+    <string name="ui_videoplayerscreen_2">Video player</string>
+    <string name="ui_videoplayerscreen_3">Play local or network video with the native FFmpeg engine. MP4, HLS, and DASH use an app-local HTTPS bridge.</string>
+    <string name="ui_videoplayerscreen_4">Network video follows server cache policies. Incomplete video may not be available offline. Adjust or disable the cache in Settings; changes apply after the player closes.</string>
+    <string name="ui_videoplayerscreen_5">Video URL</string>
+    <string name="ui_videoplayerscreen_6">Enter a valid HTTP or HTTPS video URL.</string>
+    <string name="ui_videoplayerscreen_7">Start playback</string>
+    <string name="ui_videoplayerscreen_8">Play this URL</string>
+    <string name="ui_videoplayerscreen_9">Play local video</string>
+    <string name="ui_videoplayerscreen_10">Downloads require HTTPS</string>
+    <string name="ui_videoplayerscreen_11">Download MP4 for offline playback</string>
+    <string name="ui_videoplayerscreen_12">Offline download supports direct MP4 URLs. HLS and DASH support streaming only.</string>
+    <string name="ui_videoplayerscreen_13">Cancel download</string>
+    <string name="ui_videoplayerscreen_14">Play downloaded video</string>
+    <string name="ui_videoplayerscreen_15">Playback failed. Check the URL, network, and device codec support.</string>
+    <string name="ui_videoplayerscreen_16">Exit fullscreen</string>
+    <string name="ui_videoplayerscreen_17">Fullscreen</string>
+    <string name="ui_videoplayerscreen_18">Picture-in-picture is unavailable. Check system settings.</string>
+    <string name="ui_videoplayerscreen_19">Picture-in-picture</string>
+    <string name="ui_videoplayerscreen_20">−10 seconds</string>
+    <string name="ui_videoplayerscreen_21">+10 seconds</string>
+    <string name="download_offline">No internet. Download will resume when connected.</string>
+    <string name="download_reconnected">Connection restored. Download will resume automatically.</string>
+    <string name="download_weak">Slow connection. Download will keep retrying if interrupted.</string>
+    <string name="download_retrying">Waiting to retry download…</string>
+    <string name="download_resume">Resume download</string>
+</resources>

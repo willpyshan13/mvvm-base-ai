@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login_missing_input">Enter your account and password.</string>
+    <string name="login_failed">Sign-in failed. Check your account, password, or connection and try again.</string>
+    <string name="ui_loginscreen_1">Sign in</string>
+    <string name="ui_loginscreen_2">Sign in to continue. A configured backend or opt-in demo authentication is required.</string>
+    <string name="ui_loginscreen_3">Username</string>
+    <string name="ui_loginscreen_4">Password</string>
+    <string name="ui_loginscreen_5">Signing in…</string>
+    <string name="ui_loginscreen_6">Sign in</string>
+    <string name="ui_loginscreen_7">Back</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ui_appnavigationshell_1">任务</string>
+    <string name="ui_appnavigationshell_2">功能</string>
+    <string name="ui_appnavigationshell_3">设置</string>
+    <string name="ui_appnavigationshell_4">巡检</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="task_read_failed">Could not load tasks. Try again.</string>
+    <string name="task_add_failed">Could not add the task.</string>
+    <string name="task_delete_failed">Could not delete the task.</string>
+    <string name="task_save_failed">Could not save the task.</string>
+    <string name="task_status_failed">Could not update the task status.</string>
+    <string name="task_refresh_failed">Could not refresh tasks. Try again.</string>
+    <string name="task_more_failed">Could not load more tasks. Try again.</string>
+    <string name="ui_homescreen_1">Task example</string>
+    <string name="ui_homescreen_2">Sign out</string>
+    <string name="ui_homescreen_3">Sign in</string>
+    <string name="ui_homescreen_4">View task summary</string>
+    <string name="ui_homescreen_5">Settings</string>
+    <string name="ui_homescreen_6">Network status example</string>
+    <string name="ui_homescreen_7">Video playback example</string>
+    <string name="ui_homescreen_8">New task</string>
+    <string name="ui_homescreen_9">Add</string>
+    <string name="ui_homescreen_10">Reading tasks…</string>
+    <string name="ui_homescreen_11">Reload</string>
+    <string name="ui_homescreen_12">No tasks yet</string>
+    <string name="ui_homescreen_13">Add a task to get started.</string>
+    <string name="ui_homescreen_14">Refresh again</string>
+    <string name="ui_homescreen_15">Delete</string>
+    <string name="ui_homescreen_16">Loading more…</string>
+    <string name="ui_homescreen_17">Retry</string>
+    <string name="search_tasks">Search tasks</string>
+    <string name="task_filter_all">All</string>
+    <string name="task_filter_active">Active</string>
+    <string name="task_filter_completed">Completed</string>
+    <string name="no_matching_tasks">No matching tasks</string>
+    <string name="adjust_task_search">Try changing the search text or filter.</string>
+    <string name="edit_task">Edit</string>
+    <string name="edit_task_title">Edit task</string>
+    <string name="save_task">Save</string>
+    <string name="cancel_task_edit">Cancel</string>
+    <string name="confirm_delete_title">Delete task?</string>
+    <string name="confirm_delete_message">This action cannot be undone.</string>
+    <string name="confirm_delete_action">Delete</string>
+</resources>

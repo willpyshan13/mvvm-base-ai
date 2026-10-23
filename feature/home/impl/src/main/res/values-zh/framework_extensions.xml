@@ -1,0 +1,4 @@
+<resources>
+    <string name="task_count">任务列表 · 共 %1$d 项</string>
+    <string name="saved_count">已保存 %1$d 个任务</string>
+</resources>
