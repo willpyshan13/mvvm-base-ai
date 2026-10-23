@@ -30,14 +30,14 @@ opentelemetry-sdk-testing = { module = "io.opentelemetry:opentelemetry-sdk-testi
 desugar-jdk-libs = { module = "com.android.tools:desugar_jdk_libs", version = "2.1.5" }
 opentelemetry-android-bom = { module = "io.opentelemetry.android:opentelemetry-android-bom", version.ref = "opentelemetryAndroid" }
 opentelemetry-android-agent = { module = "io.opentelemetry.android:android-agent" }
-androidx-work-testing = { module = "androidx.work:work-testing", version = "2.10.1" }
+androidx-work-testing = { module = "androidx.work:work-testing", version = "2.12.0" }
 androidx-benchmark-macro = { module = "androidx.benchmark:benchmark-macro-junit4", version = "1.4.1" }
 androidx-uiautomator = { module = "androidx.test.uiautomator:uiautomator", version = "2.3.0" }
 leakcanary-android = { module = "com.squareup.leakcanary:leakcanary-android", version.ref = "leakcanary" }
 
 coil-compose = { module = "io.coil-kt.coil3:coil-compose", version = "3.3.0" }
 coil-network = { module = "io.coil-kt.coil3:coil-network-okhttp", version = "3.3.0" }
-androidx-work = { module = "androidx.work:work-runtime-ktx", version = "2.10.1" }
+androidx-work = { module = "androidx.work:work-runtime-ktx", version = "2.12.0" }
 kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "coroutines" }
 
 androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "activity" }
